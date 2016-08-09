@@ -5,13 +5,24 @@ class nubis_users(
     $users_group    = 'users',
 ){
 
+    if !($ensure in ['present', 'absent']) {
+        fail("[fail] ${ensure} is not a valid parameter")
+    }
+
+    if $ensure == 'present' {
+        $group_ensure   = 'present'
+    }
+    else {
+        $group_ensure   = 'absent'
+    }
+
     group { $users_group:
-        ensure => present,
+        ensure => $group_ensure,
         system => true,
     }
 
     group { $admin_group:
-        ensure => present,
+        ensure => $group_ensure,
         system => true,
     }
 

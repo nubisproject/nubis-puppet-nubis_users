@@ -24,6 +24,10 @@ define nubis_users::user(
 
     }
 
+    # Bunch of validations
+    validate_array($groups)
+    validate_array($ssh_keys)
+
     user { $username:
         ensure     => $user_ensure,
         groups     => $groups,
