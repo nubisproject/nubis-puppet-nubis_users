@@ -17,7 +17,7 @@ class nubis_users(
 
     # Create users here
     $users = hiera_hash('nubis_users::user', {})
-    create_resources('nubis_users::user', $users, { 'gid' => $users_group })
+    create_resources('nubis_users::user', $users, { 'groups' => $users_group })
 
     # Add users to sudo (Requires saz/sudo module)
     sudo::conf { 'admins':
