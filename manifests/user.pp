@@ -36,7 +36,7 @@ define nubis_users::user(
         ensure => $directory_ensure,
         owner  => $name,
         group  => $name,
-        mode   => '0644',
+        mode   => '0700',
     }
     file { "/home/${username}/.ssh":
         ensure  => $directory_ensure,
