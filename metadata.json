@@ -8,7 +8,8 @@
   "project_page": "https://github.com/nubisproject/nubis-puppet-nubis_users",
   "issues_url": "https://github.com/nubisproject/nubis-puppet-nubis_users/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name": "saz-sudo", "version_requirement":">=1.0.0"}
   ]
 }
 
