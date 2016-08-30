@@ -24,14 +24,13 @@ Complete example:
 ```
 # common.yaml
 ---
-nubis_users::users:
+nubis_users::user:
     elim:
         groups:
             - wheel
             - users
-        ssh_keys:
-            - < ssh key 1 >
-            - < ssh key 2 >
+        ssh_keys: |
+            <ssh key blob>
 
 ```
 
