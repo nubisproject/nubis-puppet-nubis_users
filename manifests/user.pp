@@ -5,7 +5,7 @@ define nubis_users::user(
     $groups     = [],
     $managehome = true,
     $shell      = '/bin/bash',
-    $ssh_keys   = [],
+    $ssh_keys   = undef,
 ){
 
     if !($ensure in ['present', 'absent']) {
@@ -26,7 +26,7 @@ define nubis_users::user(
 
     # Bunch of validations
     validate_array($groups)
-    validate_array($ssh_keys)
+    validate_string($ssh_keys)
 
     user { $username:
         ensure     => $user_ensure,
