@@ -26,6 +26,9 @@ class nubis_users(
         system => true,
     }
 
+    # For users that are just required on the instance
+    require nubis_users::managed
+
     # Create users here
     $users = hiera_hash('nubis_users::user', {})
     create_resources('nubis_users::user', $users, { 'groups' => $users_group })
