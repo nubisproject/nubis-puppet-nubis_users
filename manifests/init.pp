@@ -33,6 +33,12 @@ class nubis_users(
     $users = hiera_hash('nubis_users::user', {})
     create_resources('nubis_users::user', $users, { 'groups' => $users_group })
 
+    # This needs to be here becuase this module purges configs
+    # we don't want it purging default user sudo access
+    class { 'sudo':
+      purge               => false,
+      config_file_replace => false,
+    } ->
     # Add users to sudo (Requires saz/sudo module)
     sudo::conf { 'admins':
         priority  => 10,
