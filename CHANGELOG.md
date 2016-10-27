@@ -1,6 +1,21 @@
 # Change Log
 
-## [v1.1.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.1.0) (2016-09-08)
+## [v1.2.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.2.0) (2016-10-27)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.1.0...v1.2.0)
+
+**Implemented enhancements:**
+
+- Migrate hiera configs and confd templates to the puppet module [\#6](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/6)
+
+**Fixed bugs:**
+
+- Fix sudo module so that it doesn't purge configs [\#3](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/3)
+
+**Merged pull requests:**
+
+- Templatize confd toml and tmpl files [\#7](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/7) ([limed](https://github.com/limed))
+
+## [v1.1.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.1.0) (2016-09-09)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.0.0...v1.1.0)
 
 **Closed issues:**
@@ -9,6 +24,7 @@
 
 **Merged pull requests:**
 
+- Updated changelog for release [\#5](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/5) ([limed](https://github.com/limed))
 - Fixing module to not purge configs [\#4](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/4) ([limed](https://github.com/limed))
 
 ## [v1.0.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.0.0) (2016-09-06)
