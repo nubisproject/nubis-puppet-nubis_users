@@ -1,8 +1,7 @@
 # This class sets up the confd and hiera files required
 #
 class nubis_users::setup(
-  $global_admins  = [ 'nubis_global_admins' ],
-  $sudo_users     = [],
+  $sudo_users     = [ 'nubis_global_admins '],
   $nubis_users    = [],
 ){
 
