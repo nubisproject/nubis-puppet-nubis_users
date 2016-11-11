@@ -1,5 +1,17 @@
 # Change Log
 
+## [v1.3.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.3.0) (2016-11-11)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.2.0...v1.3.0)
+
+**Closed issues:**
+
+- Remove global\_admins param [\#11](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/11)
+- Cut a new release [\#8](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/8)
+
+**Merged pull requests:**
+
+- removes global\_admins parameter [\#12](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/12) ([limed](https://github.com/limed))
+
 ## [v1.2.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.2.0) (2016-10-27)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.1.0...v1.2.0)
 
@@ -13,6 +25,7 @@
 
 **Merged pull requests:**
 
+- Update Changelog for v1.2.0 release [\#10](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/10) ([limed](https://github.com/limed))
 - Templatize confd toml and tmpl files [\#7](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/7) ([limed](https://github.com/limed))
 
 ## [v1.1.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.1.0) (2016-09-09)
