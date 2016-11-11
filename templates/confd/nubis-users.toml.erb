@@ -4,9 +4,6 @@ dest = "/etc/puppet/yaml/nubis_users/common.yaml"
 prefix = "/environments/%%ENVIRONMENT%%/global/nubis-users"
 
 keys = [
-<% if @global_admins -%><% @global_admins.each do |global_users| -%>
-    "/<%= global_users %>",
-<% end -%><% end -%>
 <% if @sudo_users -%><% @sudo_users.each do |sudo_users| -%>
     "/<%= sudo_users %>",
 <% end -%><% end -%>
