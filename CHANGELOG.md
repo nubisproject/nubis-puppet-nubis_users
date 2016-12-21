@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.3.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.3.0) (2016-12-20)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.3.0...v1.3.0)
+
+**Closed issues:**
+
+- Tag release for v1.3.0 [\#13](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/13)
+
 ## [v1.3.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.3.0) (2016-11-11)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.2.0...v1.3.0)
 
@@ -10,6 +17,7 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.3.0 release [\#14](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/14) ([limed](https://github.com/limed))
 - removes global\_admins parameter [\#12](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/12) ([limed](https://github.com/limed))
 
 ## [v1.2.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.2.0) (2016-10-27)
