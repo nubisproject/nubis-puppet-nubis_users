@@ -6,6 +6,7 @@ define nubis_users::user(
   $managehome = true,
   $shell      = '/bin/bash',
   $ssh_keys   = undef,
+  $email      = undef,
 ){
 
   if !($ensure in ['present', 'absent']) {
@@ -33,6 +34,7 @@ define nubis_users::user(
     groups     => $groups,
     managehome => $managehome,
     shell      => $shell,
+    comment    => $email,
   }
 
   if $managehome {
