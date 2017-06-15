@@ -1,11 +1,18 @@
 # Change Log
 
-## [v1.3.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.3.0) (2016-12-20)
-[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.3.0...v1.3.0)
+## [v1.4.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.0) (2017-06-15)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.3.0...v1.4.0)
 
 **Closed issues:**
 
+- Tag v1.4.0 release [\#17](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/17)
 - Tag release for v1.3.0 [\#13](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/13)
+- puppet apply fails if there is no data in consul [\#9](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/9)
+
+**Merged pull requests:**
+
+- Add email as comment to user for DUO MFA [\#20](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/20) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.3.0 release [\#16](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/16) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.3.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.3.0) (2016-11-11)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.2.0...v1.3.0)
@@ -14,6 +21,7 @@
 
 - Remove global\_admins param [\#11](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/11)
 - Cut a new release [\#8](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/8)
+- Tag v1.3.0 release [\#15](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/15)
 
 **Merged pull requests:**
 
