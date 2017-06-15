@@ -7,6 +7,7 @@ nubis_users::user:
     groups:
       - wheel
       - users
+    email: {{ getv (print "/<%= sudo_users %>/" $dir "/email") }}
     ssh_keys: |{{ $pubkey := getv (print "/<%= sudo_users %>/" $dir "/sshPublicKey") }}
       {{ replace $pubkey "\n" "\n      " -1 }}
 {{ end }}{{ end }}
@@ -16,6 +17,7 @@ nubis_users::user:
   {{ getv (print "/<%= nubis_users %>/" $dir "/uid") }}:
     groups:
       - users
+    email: {{ getv (print "/<%= nubis_users %>/" $dir "/email") }}
     ssh_keys: |{{ $pubkey := getv (print "/<%= nubis_users %>/" $dir "/sshPublicKey") }}
       {{ replace $pubkey "\n" "\n      " -1 }}
 {{ end }}{{ end }}
