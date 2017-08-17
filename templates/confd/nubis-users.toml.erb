@@ -1,7 +1,7 @@
 [template]
 src = "nubis-users.tmpl"
 dest = "/etc/puppet/yaml/nubis_users/common.yaml"
-prefix = "/environments/%%ENVIRONMENT%%/global/nubis-users"
+prefix = "/environments/%%ARENA%%/global/nubis-users"
 
 keys = [
 <% if @sudo_users -%><% @sudo_users.each do |sudo_users| -%>
