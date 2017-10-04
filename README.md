@@ -1,15 +1,14 @@
-### nubis-puppet-nubis_users
+# nubis-puppet-nubis_users
 
 Puppet module to create unix users
 
-
-### Usage
+## Usage
 
 This module uses hiera parameter lookups.
 
 Complete example:
 
-```
+```bash
 # hiera.yaml
 ---
 :backends:
@@ -21,7 +20,7 @@ Complete example:
     - common
 ```
 
-```
+```bash
 # common.yaml
 ---
 nubis_users::user:
@@ -36,6 +35,7 @@ nubis_users::user:
 
 In order to invoke puppet you can run the following command:
 
-```
-# puppet apply --hiera_config /etc/puppet/hiera.yaml --modulepath /etc/puppet/modules -e 'include nubis_users'
+```bash
+# puppet apply --hiera_config /etc/puppet/hiera.yaml \
+  --modulepath /etc/puppet/modules -e 'include nubis_users'
 ```
