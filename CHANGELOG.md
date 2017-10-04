@@ -1,16 +1,26 @@
 # Change Log
 
+## [v1.4.1](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.1) (2017-10-04)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.0...v1.4.1)
+
+**Merged pull requests:**
+
+- Look for users in arena config now [\#24](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/24) ([gozer](https://github.com/gozer))
+
 ## [v1.4.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.0) (2017-06-15)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.3.0...v1.4.0)
 
 **Closed issues:**
 
-- Tag v1.4.0 release [\#17](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/17)
 - Tag release for v1.3.0 [\#13](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/13)
 - puppet apply fails if there is no data in consul [\#9](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/9)
+- Tag v1.4.0 release [\#21](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/21)
+- Tag v1.4.0 release [\#17](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/17)
 
 **Merged pull requests:**
 
+- Merge v1.4.0 release into develop. \[skip ci\] [\#23](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/23) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.0 release \[skip ci\] [\#22](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/22) ([tinnightcap](https://github.com/tinnightcap))
 - Add email as comment to user for DUO MFA [\#20](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/20) ([tinnightcap](https://github.com/tinnightcap))
 - Update CHANGELOG for v1.3.0 release [\#16](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/16) ([tinnightcap](https://github.com/tinnightcap))
 
