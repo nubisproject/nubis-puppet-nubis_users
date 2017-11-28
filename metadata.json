@@ -1,6 +1,6 @@
 {
   "name": "nubis-puppet-nubis_users",
-  "version": "0.4.0",
+  "version": "1.4.2",
   "author": "limed@mozilla.com",
   "summary": "Creates local nubis accounts",
   "license": "MPL-2.0",
