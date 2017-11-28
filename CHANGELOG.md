@@ -1,10 +1,23 @@
 # Change Log
 
-## [v1.4.1](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.1) (2017-10-04)
-[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.0...v1.4.1)
+## [v1.4.2](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.2) (2017-11-28)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.1...v1.4.2)
 
 **Merged pull requests:**
 
+- \[Centennial\] 0.5.0 [\#28](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/28) ([gozer](https://github.com/gozer))
+
+## [v1.4.1](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.1) (2017-10-04)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.0...v1.4.1)
+
+**Closed issues:**
+
+- Tag v1.4.1 release [\#25](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/25)
+
+**Merged pull requests:**
+
+- Merge v1.4.1 release into develop. \[skip ci\] [\#27](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/27) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.1 release \[skip ci\] [\#26](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/26) ([tinnightcap](https://github.com/tinnightcap))
 - Look for users in arena config now [\#24](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/24) ([gozer](https://github.com/gozer))
 
 ## [v1.4.0](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.0) (2017-06-15)
