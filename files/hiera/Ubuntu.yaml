@@ -1,6 +1,6 @@
 ---
 nubis_users::managed::user:
-  ubuntu:
+  nubis:
     ensure: present
     managehome: true
     shell: /bin/bash

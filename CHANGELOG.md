@@ -1,10 +1,27 @@
 # Change Log
 
-## [v1.4.2](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.2) (2017-11-28)
-[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.1...v1.4.2)
+## [v1.4.3](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.3) (2018-01-17)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.2...v1.4.3)
+
+**Closed issues:**
+
+- Update managed user to include 'nubis' [\#32](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/32)
 
 **Merged pull requests:**
 
+- Manage the nubis user [\#33](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/33) ([gozer](https://github.com/gozer))
+
+## [v1.4.2](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.2) (2017-11-28)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-nubis_users/compare/v1.4.1...v1.4.2)
+
+**Closed issues:**
+
+- Tag v1.4.2 release [\#29](https://github.com/nubisproject/nubis-puppet-nubis_users/issues/29)
+
+**Merged pull requests:**
+
+- Merge v1.4.2 release into develop. \[skip ci\] [\#31](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/31) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.2 release \[skip ci\] [\#30](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/30) ([tinnightcap](https://github.com/tinnightcap))
 - \[Centennial\] 0.5.0 [\#28](https://github.com/nubisproject/nubis-puppet-nubis_users/pull/28) ([gozer](https://github.com/gozer))
 
 ## [v1.4.1](https://github.com/nubisproject/nubis-puppet-nubis_users/tree/v1.4.1) (2017-10-04)

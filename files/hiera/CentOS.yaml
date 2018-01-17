@@ -1,7 +1,7 @@
 # These users are users that come default on the centos os
 ---
 nubis_users::managed::user:
-  centos:
+  nubis:
     ensure: present
     managehome: true
     shell: /bin/bash
