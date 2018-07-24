@@ -1,6 +1,6 @@
 [template]
 src = "nubis-users.tmpl"
-dest = "/etc/puppet/yaml/nubis_users/common.yaml"
+dest = "/etc/puppetlabs/puppet/yaml/nubis_users/common.yaml"
 prefix = "/arenas/%%ARENA%%/global/nubis-users"
 
 keys = [
@@ -12,4 +12,4 @@ keys = [
 <% end -%><% end -%>
 ]
 
-reload_cmd = "puppet apply --hiera_config /etc/puppet/hiera.yaml -e 'include nubis_users'"
+reload_cmd = "puppet apply --hiera_config /etc/puppetlabs/puppet/hiera.yaml -e 'include nubis_users'"

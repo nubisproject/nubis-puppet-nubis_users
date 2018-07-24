@@ -5,14 +5,14 @@ class nubis_users::setup(
   $nubis_users    = [],
 ){
 
-  file { '/etc/puppet/yaml':
+  file { '/etc/puppetlabs/puppet/yaml':
     ensure => directory,
     owner  => root,
     group  => root,
     mode   => '0755',
   }
 
-  file { '/etc/puppet/hiera.yaml':
+  file { '/etc/puppetlabs/puppet/hiera.yaml':
     ensure => file,
     owner  => root,
     group  => root,
@@ -20,7 +20,7 @@ class nubis_users::setup(
     source => 'puppet:///modules/nubis_users/hiera.yaml',
   }
 
-  file { '/etc/puppet/yaml/nubis_users':
+  file { '/etc/puppetlabs/puppet/yaml/nubis_users':
     ensure  => directory,
     owner   => root,
     group   => root,
